@@ -1,0 +1,32 @@
+#profile h1 {
+	font-size: 4rem;
+	color: rgba(5, 180, 148, 0.9);
+}
+#profile h4 {
+	margin-bottom: 2rem;
+	font-weight: normal;
+	font-size: 1.5rem;
+}
+.profile__content {
+	padding: 2rem 0;
+	border-top: 1px solid grey;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+.profile__content-aboutme,
+.profile__content-details {
+	text-align: left;
+}
+.profile__content-details {
+	padding-left: 20px;
+}
+.profile__content-aboutme h3,
+.profile__content-details h3 {
+	color: rgba(5, 180, 148, 0.9);
+	font-size: 2rem;
+	margin-bottom: 0.5rem;
+}
+.profile__content-details h5,
+.profile__content-details p {
+	margin-bottom: 0.5rem;
+}

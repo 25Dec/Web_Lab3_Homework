@@ -1,0 +1,48 @@
+#abilities h1 {
+	font-size: 4rem;
+	color: rgba(5, 180, 148, 0.9);
+}
+
+.abilities__content-skills h3,
+.abilities__content-languages h3 {
+	color: rgba(5, 180, 148, 0.9);
+	font-size: 2rem;
+	margin-bottom: 0.5rem;
+}
+
+.abilities__content-skills,
+.abilities__content-languages {
+	border-top: 1px solid grey;
+	text-align: left;
+	padding: 2rem 0;
+}
+
+.abilities__content-skills td,
+.abilities__content-languages td {
+	width: 50%;
+}
+
+.abilities__content-skills table,
+.abilities__content-languages table {
+	margin: 1rem 0;
+	position: relative;
+}
+.abilities__content-languages {
+	margin-top: 3rem;
+}
+.tick {
+	color: rgba(5, 180, 148, 0.9);
+}
+.see-on-github-p {
+	text-align: center;
+}
+.see-on-github-a {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	text-decoration: none;
+	background: rgba(5, 180, 148, 0.9);
+	color: white;
+	padding: 0.5rem;
+	margin: 1rem 0;
+}

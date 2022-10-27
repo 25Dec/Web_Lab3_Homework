@@ -1,0 +1,30 @@
+#experiences h1 {
+	font-size: 4rem;
+	color: rgba(5, 180, 148, 0.9);
+}
+.experiences__content-educations h3,
+.experiences__content-workingexp h3 {
+	color: rgba(5, 180, 148, 0.9);
+	font-size: 2rem;
+	margin-bottom: 0.5rem;
+}
+#experiences {
+	background: rgba(227, 227, 177, 0.6);
+}
+#experiences h1 {
+	margin-bottom: 2rem;
+}
+.experiences__content-educations,
+.experiences__content-workingexp {
+	border-top: 1px solid grey;
+	text-align: left;
+	padding: 2rem 0;
+}
+.experiences__content-educations td,
+.experiences__content-workingexp td {
+	width: 50%;
+}
+.experiences__content-educations h5,
+.experiences__content-workingexp h5 {
+	margin-bottom: 0.5rem;
+}
